@@ -1,4 +1,4 @@
-<?php
+<?php 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $upload_dir = 'uploads/';
     $original_name = $_FILES["fileToUpload"]["name"];
